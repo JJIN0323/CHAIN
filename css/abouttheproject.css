@@ -1,0 +1,528 @@
+#sub4-intro {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/sub4_intro_bg.png") no-repeat center 0;
+    background-size: cover;
+}
+
+#sub4-intro article {
+	cursor: default;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#sub4-intro article.text {
+    padding: 128px 0 0 0;
+    max-height: 40vh;
+    width: 1059px;
+    margin: 0 auto;
+}
+
+#sub4-intro article.countdown {
+    padding: 30px 0 0 0;
+    max-height: 50vh;
+    width: 959px;
+    margin: 0 auto;
+}
+
+.countdown-start {
+    height: 359px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.countdown-title {
+    font-family: 'Play', 'sans-serif';
+    font-size: 26pt;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: #8be4d8;
+}
+
+.countdown-text {
+    width: 200px;
+    height: 232px;
+    background: url("../images/sub4_intro_text_bg.png") no-repeat left top;
+    text-align: left;
+    float: right;
+    padding: 20px 20px 0 15px;
+}
+
+.stats-text {
+    color: #ffffff;
+    font-size: 14pt;
+    line-height: 50px;
+}
+
+.stats-boldtext {
+    color: #cbfff8;
+    font-weight: bold;
+}
+
+.count-timer {
+    font-family: 'Play', 'sans-serif';
+    font-size: 48pt;
+    padding-bottom: 10px;
+    text-decoration: line-through;
+    text-decoration-color: #191d2d;
+    background: -webkit-linear-gradient(#ffffff, #d4e5eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.timer-text {
+    color: #ffffff;
+    font-size: 13pt;
+    letter-spacing: 50px;
+    padding-left: 60px;
+}
+
+.button.startbtn {
+    width: 245px;
+    height: 48px;
+    font-size:16pt;
+    text-align: center;
+    border-radius: 0 !important;
+    padding: 15px 0 0 0;
+    margin:30px 0 0 0;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.button.startbtn:hover {
+    width: 245px;
+    height: 48px;
+    font-size:16pt;
+    text-align: center;
+    border-radius: 0 !important;
+    padding: 15px 0 0 0;
+    margin:30px 0 0 0;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: rgba(139, 228, 216, 0.8);
+}
+
+
+#sub4-movie {
+    width: 100%;
+    height: 100vh;
+}
+
+#sub4-movie article {
+	cursor: default;
+	height: 100%;
+	max-height: 80vh;
+	overflow: hidden;
+	position: relative;
+}
+
+#sub4-movie article.text {
+    padding: 128px 0 0 202px;
+    max-height: 10vh;
+}
+
+#sub4-movie article.movie {
+    padding: 10px 0 0 202px;
+}
+
+#sub4-roadmap {
+    width: 100%;
+    height: 100vh;
+}
+
+#sub4-roadmap article {
+	cursor: default;
+	height: 100%;
+	max-height: 80vh;
+	overflow: hidden;
+	position: relative;
+}
+
+#sub4-roadmap article.text {
+    padding: 128px 0 0 202px;
+    max-height: 15vh;
+}
+
+#sub4-roadmap article.roadmap {
+    padding: 20px 0 0 202px;
+    max-height: 65vh;
+}
+
+#sub4-whycubecoin article {
+	cursor: default;
+	height: 100%;
+	max-height: 80vh;
+	overflow: hidden;
+	position: relative;
+}
+
+#sub4-whycubecoin article.text {
+    padding: 128px 0 0 202px;
+    max-height: 15vh;
+}
+
+#sub4-whycubecoin article.whycubecoin {
+    padding: 20px 0 0 202px;
+    max-height: 65vh;
+}
+
+#sub4-bonus {
+    width: 100%;
+    height: 80vh;
+}
+
+#sub4-bonus article {
+	cursor: default;
+	height: 100%;
+	max-height: 80vh;
+	overflow: hidden;
+	position: relative;
+}
+
+#sub4-bonus article.bonus {
+    padding: 20px 0 0 202px;
+    max-height: 65vh;
+}
+
+#sub4-bonus article.text {
+    padding: 128px 0 0 202px;
+    max-height: 15vh;
+}
+
+
+#sub4-whitepaper {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/eight_bg.png") no-repeat bottom;
+    background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#sub4-whitepaper article {
+	align-items: center;
+	cursor: default;
+	height: 100%;
+	max-height: 70vh;
+	overflow: hidden;
+	position: relative;
+    text-align: center;
+    width: 20%;
+    padding: 50px 0 0 0;
+}
+
+#sub4-whitepaper article.text {
+    padding: 128px 0 0 202px;
+    max-height: 15vh;
+    width: 100%;
+    text-align: left;
+}
+
+#sub4-executive {
+    width: 100%;
+    height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#sub4-executive article {
+	align-items: center;
+	cursor: default;
+	height: 100%;
+	max-height: 100vh;
+	overflow: hidden;
+	position: relative;
+    text-align: left;
+    width: 211px;
+    padding: 30px 0 0 0;
+}
+
+
+/*
+#sub4-executive article {
+	cursor: default;
+	height: 100%;
+	max-height: 60vh;
+	overflow: hidden;
+	position: relative;
+}
+*/
+
+#sub4-partners {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/sub4_partners_bg.png") no-repeat center 0;
+    background-size: cover;
+}
+
+#sub4-partners article.text {
+    padding: 128px 0 0 202px;
+    max-height: 30vh;
+}
+
+#sub4-partners article.logo {
+    padding: 30px 0 0 227px;
+    max-height: 50vh;
+}
+
+#sub4-asked {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/sub4_asked_bg.png") no-repeat center bottom;
+    background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#sub4-asked article {
+	align-items: center;
+	display: inline-block;
+	cursor: default;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+    width: 30%;
+    padding: 0;
+}
+
+
+.subscript-title {
+    color: #545454;
+    font-size: 13pt;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.subscript {
+    color: #545454;
+    font-size: 12pt;
+    line-height: 30px;
+}
+
+.pl202 {
+    padding-left: 202px !important;
+}
+
+.pr48 {
+    padding-right: 48px !important;
+}
+
+.p128 {
+    padding: 0 0 40px 128px !important;
+}
+
+.sub4-advisor {
+    width: 80%;
+    padding: 50px 0 0 202px;
+}
+
+.sub4-questions {
+    width: 80%;
+    padding: 100px 0 150px 202px;
+}
+
+.advisor-name {
+    color: #333333;
+    padding: 0 0 10px 0; 
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.advisor-class {
+    color: #333333;
+    padding: 0 0 30px 0; 
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.advisor-text {
+    color: #545454;
+    font-size: 12pt;
+    line-height: 30px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    
+    
+    #sub4-intro article.text {
+        padding: 50px 30px;
+        max-height: 40vh;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #sub4-intro article.countdown {
+        padding: 30px 0 0 0;
+        max-height: 50vh;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .countdown-text {
+        display: none;
+    }
+    
+    .count-timer {
+        font-size: 35pt;
+    }
+
+    .timer-text {
+        color: #ffffff;
+        font-size: 13pt;
+        letter-spacing: 33px;
+        padding-left: 50px;
+    }
+    
+    .button.startbtn {
+        padding: 9px 0 0 0;
+    }
+
+    .button.startbtn:hover {
+        padding: 9px 0 0 0;
+    }
+    
+    #sub4-movie article.text {
+        padding: 50px 30px;
+    }
+    
+    #sub4-movie article.movie {
+        padding: 50px 30px;
+    }
+    
+    #sub4-roadmap {
+        width: 100%;
+        height: auto;
+    }
+    
+    #sub4-roadmap article.text {
+        padding: 50px 30px;
+    }
+    
+    #sub4-roadmap article.roadmap {
+        padding: 50px 30px;
+    }
+    
+    #sub4-whycubecoin article.text {
+        padding: 50px 30px;
+    }
+    
+    #sub4-whycubecoin article.whycubecoin {
+        padding: 50px 30px;
+    }
+    
+    #sub4-bonus {
+        width: 100%;
+        height: auto;
+    }
+    
+    #sub4-bonus article.text {
+        padding: 50px 30px;
+    }
+    
+    #sub4-bonus article.bonus {
+        padding: 50px 30px;
+    }
+    
+    #sub4-whitepaper {
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+    
+    #sub4-whitepaper article {
+        width: 100%;
+    }
+    
+    #sub4-whitepaper article.text {
+        padding: 50px 30px;
+    }
+    
+    #sub4-executive {
+        width: 100%;
+        height: auto;
+    }
+    
+    #sub4-executive article {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #sub4-partners {
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+    
+    #sub4-partners article.text {
+        padding: 50px 30px;
+    }
+    
+    #sub4-partners article.logo {
+        padding: 50px 30px;
+    }
+    
+    #sub4-asked {
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+    
+    #sub4-asked article {
+        width: 100%;
+    }
+    
+    embed {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .fullimg {
+        width: 100%;
+    }
+    
+    .pl202 {
+        padding-left: 0 !important;
+    }
+    
+    .pl25 {
+        padding-left: 0 !important;
+    }
+    
+    .pr48 {
+        padding-right: 0 !important;
+    }
+    
+    .p128 {
+        padding: 0 0 20px 57px !important;
+    }
+    
+    .text {
+        padding: 50px 30px;
+    }
+    
+    .sub4-advisor {
+        width: 100%;
+        padding: 50px 30px;
+    }
+    
+    .sub4-questions {
+        width: 100%;
+        padding: 0 30px;
+    }
+    
+    .subscript-title {
+        font-size: 10pt;
+    }
+    
+    .subscript {
+        font-size: 10pt;
+    }
+    
+    .advisor-text {
+        font-size: 10pt;
+    }
+
+}

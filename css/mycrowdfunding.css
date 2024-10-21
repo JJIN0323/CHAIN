@@ -1,0 +1,217 @@
+
+.popup h2 {
+    font-family: 'Play', sans-serif;
+    font-size: 30pt;
+    color: #063155;
+    text-align: center;
+    border-bottom: 2px solid #063155;
+    padding-bottom: 15px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 0.2s;
+  font-size: 48px;
+  text-decoration: none;
+  color: #5f5f5f;
+}
+
+.popup .close:hover {
+  color: #0f83b0;
+}
+
+.popup .content {
+  overflow: hidden;
+  padding: 20px 0;
+    
+}
+
+.popup .content-left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    padding-right: 10px;
+    border-right: 1px solid #d8d8d8;
+}
+
+.popup .content-right {
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+}
+
+.popup .content-bottom {
+    width: 100%;
+    text-align: center;
+}
+
+.popup-subscript {
+    color: #545454;
+    font-size: 12pt;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+input[type=text] {
+    color:#a19f9f;
+    font-size: 10pt;
+    font-weight: 600;
+    padding: 0 30px;
+    margin-bottom: 5px;
+    width: 223px;
+    border: 1px solid #989898;
+}
+
+.button.popup-login {
+    width: 222px;
+    height: 35px;
+    font-size:14pt;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0 0 0;
+    margin: 20px 0 0 56px;
+    color: #ffffff;
+    box-shadow: 1px 1px 5px #5f5f5f;
+    background-color: #00367a;
+    display: block;
+}
+
+.button.popup-password {
+    width: 210px;
+    height: 35px;
+    font-size: 12pt;
+    text-align: center;
+    padding: 13px 0 0 0;
+    margin: 30px 0 0 0;
+    box-shadow: 2px 2px 5px #cccccc;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0f83b0;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+.overlay:target:before {
+    display: none;
+}
+
+.overlay:before {
+  content:"";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 9;
+}
+
+
+.overlay .popup {
+  background: #ffffff;
+  width: 35%;
+  position: fixed;
+  top: 0;
+  left: 30%;
+  padding: 25px;
+  margin: 70px auto;
+  z-index: 10000;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.overlay:target .popup {
+    top: -100%;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+
+
+.pb20 {
+    padding-bottom: 10px !important;
+}
+    
+.overlay .popup {
+  background: #ffffff;
+  width: 90%;
+  position: fixed;
+  top: 0;
+  left: 5%;
+  padding: 25px;
+  margin: 70px auto;
+  z-index: 10000;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+    
+.popup h2 {
+    font-family: 'Play', sans-serif;
+    font-size: 20pt;
+    color: #063155;
+    text-align: center;
+    border-bottom: 2px solid #063155;
+    padding-bottom: 15px;
+}
+
+    
+.popup .content-left {
+    width: 100%;
+    display: block;
+    vertical-align: bottom;
+    text-align: center;
+    padding-right: 0;
+    border-right: 0;
+}
+
+.popup .content-right {
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.popup-subscript {
+    color: #545454;
+    font-size: 10pt;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+    
+.button.popup-login {
+    width: 222px;
+    height: 35px;
+    font-size:14pt;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px 0 0 0;
+    margin: 0 auto;
+    color: #ffffff;
+    box-shadow: 1px 1px 5px #5f5f5f;
+    background-color: #00367a;
+    display: block;
+}
+
+.button.popup-password {
+    width: 210px;
+    height: 35px;
+    font-size: 12pt;
+    text-align: center;
+    padding: 8px 0 0 0;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px #cccccc;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0f83b0;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+    
+
+}

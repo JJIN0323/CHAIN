@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.headerWrap {width: 100%; min-width: 1100px; background: url(../images/bg_header.png) no-repeat center 0; background-size: cover;}
+.header {width: 1080px; margin: 0 auto;}
+.header .logo {display: block; width: 166px; height: 90px; margin: 0 auto;}
+
+
+.nav {width: 100%; min-width: 1100px; background: #ae8552;}
+.gnb {text-align: center; }
+.gnb li {display: inline-block; line-height: 46px; font-size: 15px;}
+.gnb li a {padding: 0 20px;  font-family: "NanumSquare"; color: #fff;}
+.gnb li a:hover,
+.gnb li a.current {font-weight: bold;}
+
+
+.footerWrap {width: 100%; min-width: 1100px; border-top: 1px solid #d1d8e4; background: #f5f6f9;}
+.footer {width: 1080px; padding: 20px 0; margin: 0 auto; font-size: 12px;}
+.footer p {padding: 5px 0; color: #565656;}
+.footer_info {padding: 5px 0;}
+.footer_info li {float: left; padding: 0 10px 0 0; margin: 0 10px 0 0; font-size: 12px; background: url(../images/ico_bar.gif) no-repeat 100% center;}
+.footer_info li:last-child {background: none;}
+.footer_info li a {color: #565656;}

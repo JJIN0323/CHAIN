@@ -1,0 +1,318 @@
+/*.title-black {background: url(../images/h1_back.png) no-repeat; background-position: 30px 0px; }*/
+section {box-sizing: border-box;height: 100vh;}
+h1.title-black {padding-bottom: 30px;}
+.sub_blue {font-family: 'Play',sans-serif; font-size: 50px; color: #00335e;letter-spacing: -0.05em;}
+.bullet-skyblue {margin-right: 10px;}
+article h2 {letter-spacing: -0.05em;}
+
+    #page1 article.overview {
+     padding: 130px 0 50px 200px;background: #fff;  }
+    #page1 .img {text-align: center; }
+#page1 .img .limg {margin-right: 80px;}
+    .img img {max-width: 100%; 
+    width /***/: auto; /* only IE8 */
+    height: auto;
+    vertical-align: bottom;}
+    #page1 h1.title-black {padding-left: 0; padding-top: 20px;}
+
+    #page2 {}
+    #page2 article.left {padding: 130px 0 80px 200px; width: 45%; height: 100%; background: #f3fdff; float: left; box-sizing: border-box;height: 100vh;}
+    #page2 .img {float: left;margin-left: 50px;}
+    #page2 .sub_green {color: #0f75b0; line-height: 48px; font-size: 28px; margin-bottom:20px;}
+    #page2 h1.title-black {padding-left: 0;padding-top: 20px;}
+#page2 h2 {letter-spacing: -0.05em;}
+    #page2 .sub_txt {line-height: 30px; font-size: 13pt; margin-bottom: 40px; }
+    #page2 .sub_navy {color: #004e85;line-height: 48px; font-size: 28px;margin-bottom:20px;}
+
+    #page3 article.overview {
+     padding: 130px 0 70px 200px;background: #fff;  }
+    #page3 .img {text-align: center;  }
+#page3 article.img .limg {margin-right: 80px;}
+    #page3 h1.title-black {padding-left: 0;padding-top: 20px;}
+    #page3 h2.sub_black {color: black; font-size: 23pt; margin-bottom: 20px;}
+#page3 article.overview p.subscript {}
+    #page4 {background: url(../images/tech_04_bg.png) no-repeat; background-size: cover;}
+    #page4 article.left {padding: 130px 0 0px 200px; width: 50%;height: 100%; float: left; box-sizing: border-box;height: 100vh;}
+    #page4 .img {}
+    #page4 .sub_green {color: #0f75b0; line-height: 48px; font-size: 28px; margin-bottom:40px;}
+    #page4 h1.title-black {padding-left: 0;padding-top: 20px; padding-bottom: 30px;}
+    #page4 .sub_txt {line-height: 35px; font-size: 13pt; margin-bottom: 5px; }
+    #page4 .sub_navy {color: #004e85;line-height: 48px; font-size: 28px;margin-bottom:20px;}
+    #page4 h2.sub_sBlack {color: #333; font-size: 22px; margin-bottom: 20px;}
+    #page4 .bullet-skyblue {margin-left: 30px;}
+    #page4 p.ltitle {margin-left: 30px; font-size: 13pt;}
+    #page4 .sec1, #page4 .sec2 {margin-bottom:40px;}
+    #page4 table , #page4 table td {border: 1px solid #c1c1c1; font-size: 12pt; padding: 15px; line-height: 22px;}
+    #page4 .right {
+    width: 50%;
+    /* clear: both; */
+    height: 100vh;
+    float: right;
+    padding:200px 300px 0 0;
+    box-sizing: border-box;}
+    #page4 .right .sec1 {margin-bottom: 20px;}
+    #page4 article.right table {width: 100%; }
+    #page4 article.right table .table_title{ text-align: center; font-size: 12pt; font-weight: bold;}
+    #page4 .sec2 table{text-align: center;}
+    #page4 .sec2 table thead {background: #eeeeee; font-weight: bold;}
+    #page4 .sec2 table thead td {font-size: 13pt; }
+    #page4 .sec2 table .td_tit {font-weight: 13pt; font-weight: bold; }
+    #page4 .iarrow {width: 638px;height: 80px;}
+    #page4 .arrow {margin: 0 auto; display: block;}
+    
+    #page5 {padding-top: 146px;}
+    #page5 h1.lit_green {color: #0198b3; font-size: 27px; text-align: center; margin-bottom: 80px;}    
+    #page5 .process {text-align: center;}
+    #page5 img {max-width: 100%; 
+    width /***/: auto; /* only IE8 */
+    height: auto;
+    vertical-align: bottom;}
+
+    #page6 {background: url(../images/tech06.png) no-repeat; background-size: cover;}
+    #page6 article.left {padding: 128px 0 0px 200px; width: 50%;height: 100%; float: left; box-sizing: border-box;height: 100vh;}
+    #page6 article.right {padding-top:250px; width: 50%; height: 100%; float: right;}
+    #page6 h1.title-black {padding-left: 0;}
+    #page6 h2.lit_green {color: #0198b3; font-size: 27px; margin-bottom: 20px;}
+    #page6 .left .sec1 {margin-bottom: 230px;}
+    #page6 .right .sec1 {margin-bottom: 30px;}
+    #page6 p.lit_black {font-size: 14pt; font-weight: bold; line-height: 30pt; }
+    #page6 .sub_txt {margin-left: 30px; line-height: 35px; font-size: 14pt;}
+    #page6 article.right .dark {background: url(../images/tech_06_li01.png) no-repeat; color: #fff; display: block; text-align: center; padding: 10px; font-weight: bold; margin-right: 10px; height: 30px;}
+    #page6 article.right .light {background: url(../images/tech_06_li02.png) no-repeat; color: #fff; display: block; text-align: center; padding: 10px; font-weight: bold; height: 30px;}
+    #page6 article.right .sec2 table  {width: 487px; border: 1px solid #35b9c7; }
+    #page6 article.right .sec2 table .btit {width: 25%; text-align: center; font-weight: bold;}
+    #page6 article.right .sec2 table td {border: 1px solid #35b9c7;padding: 7px; font-size: 10pt;}
+    #page6 article.right .sec2 table .r3 {text-align: center;line-height: 28px;}
+    #page6 article.right .sec2 table span {color: #017581;font-weight: bold;}
+
+    #page7 article.finance {padding: 128px 0 0px 200px; margin-bottom: 40px;}
+    #page7 article.finance .sec1 {margin-bottom: 50px;}
+    #page7 h2.lit_green {color: #0198b3; font-size: 27px; margin-bottom: 45px;}
+    #page7 h2.sub_sBlack {color: #333; font-size: 22px; margin-bottom: 20px;letter-spacing: -0.1em;}
+    #page7 .img {text-align: center;}
+    #page7 .sub_txt {line-height: 30px;font-size: 14pt;margin-bottom: 5px;}
+
+    #page8 {background: url(../images/tech08_%20bg.png) no-repeat; background-size: cover;}
+    #page8 article.left {padding: 110px 0 0px 200px; 
+                        width: 50%;height: 100%; box-sizing: border-box; float: left;}
+    #page8 h2.lit_green {color: #0198b3; font-size: 27px; margin-bottom: 40px;}
+    #page8 h2.s_black {color: #333; font-size: 20px; margin-bottom: 20px;}
+    #page8 article.left table {width: 80%; background: #eff5f7; border-radius: 0 30px 0 30px;
+                                margin-bottom: 50px;}
+    #page8 article.left table td {padding: 12px 12px 12px 30px; font-size: 11pt;}
+    #page8 article.left table td.tit {font-weight: bold; text-align: center;}
+    #page8 img, #page9 img {max-width: 100%; 
+    width /***/: auto; /* only IE8 */
+    height: auto;
+    vertical-align: bottom;}
+    #page8 article.right {width: 50% height:100%;right; padding-top: 200px;}
+    #page8 article.right h2.lit_black {color: #333; font-size: 22px; margin-bottom: 20px;
+                                        line-height: 40px; letter-spacing: -0.1em;}
+    #page8 article.right .sub_txt {line-height: 38px; font-size: 14pt;}
+    #page8 article.right .sec1 {margin-bottom: 230px;}
+    #page8 article.right .sec2 {text-align: right; padding-right: 300px;}
+
+    #page9 article.trade {padding: 130px 0 0px 200px;}
+    #page9 article.trade h1 {padding-left: 0;}
+    #page9 article.top {margin-bottom: 50px;}
+    #page9 article.top, #page9 article.bottom  {margin-left: 200px;width: 1300px; height: 340px;  }
+    #page9 article.top .left {float: left;}
+    #page9 article.bottom .right {float: right; }
+    #page9 article.bottom .left {width: 480px; height: 135px; background: url(../images/tech09.png) no-repeat; background-size: cover;float: left;margin-top: 50px; 
+    box-sizing: border-box; padding: 10px;}
+    #page9 article.top .right {width: 460px; height: 135px; background: url(../images/tech09.png) no-repeat;background-size: cover; float: right; margin-top: 100px;
+    box-sizing: border-box; padding: 10px;}
+    #page9 p.lit_black {font-size: 12pt; font-weight: bold; line-height: 36px; letter-spacing: -0.05em; padding-left: 40px; box-sizing: border-box; }
+#page9 article.bottom .left p.lit_black {letter-spacing: -0.05em;}
+#page9 article.trade h1 {padding-top: 20px;}
+
+
+    /* HYEJIN ADD */
+    #page9 { height: 110vh !important; }
+
+
+    //*MEDIA QUARY*//
+    @media (max-width: 1680px){
+    #page1 article.overview {
+    padding: 148px 0 0 100px;}
+    }
+
+    @media screen and (min-width: 901px) and (max-width: 1679px) {
+            
+    #page1{margin-bottom: 30px; height: auto;}
+    #page1 article.img {height: auto;}
+    #page1 .limg {margin-bottom: 50px;}
+    #page1 .img .limg {margin-right: 0;}
+    
+
+    #page2 {height: auto;}
+    #page2 article.left {width: 100%; height:auto;}
+    #page2 artice.right {width: 100%;}
+    #page2 article.img {padding: 30px 30px 0 200px; float: none; margin-left: 0;}
+    
+    #page3 {height: auto; margin-bottom: 30px;}
+    #page3 .limg {margin-bottom: 30px;}
+    
+    #page4 {height: auto;  }
+    #page4 h1.title-black {padding-bottom: 20px;}
+    #page4 article.left {width: 100%; height: auto; float: none;}
+    #page4 .right {width: 100%; float: none; padding-bottom: 30px; padding: 80px 30px 100px; 200px;}
+    #page4 .bullet-skyblue {margin-left: 0;}
+        #page4 table, #page4 table .td_tit {width: 20%;}
+    #page4 .iarrow {width: 100%;}
+    #page4 .right {height: auto; margin-bottom: 50px;}
+        #page4 table .import {width: 40%;}
+        
+    #page5 {height: auto; padding: 128px 30px 0;}
+    #page5 .process {height: auto; padding-bottom: 30px;}
+    
+    #page6 {height: auto; padding: 30px 30px 0; background: #fff;}
+    #page6 article.left { padding-top: 0; padding-left: 0; width: 100%;}
+    #page6 article.right {width: 100%;}
+    #page6 h2.lit_green {font-size: 12pt;}
+    #page6 .left .sec1 {margin-bottom: 10px;}
+    #page6 .sub_txt {font-size: 10pt; margin-left: 0;}
+    #page6 article.left {height: auto;margin-bottom: 30px; float: none;}
+    #page6 article.right {height: auto; padding-top: 0; float: none;}
+    #page6 article.right .sec1 table .dark, #page6 article.right .sec1 table .light {height: 45px; font-size: 9pt; padding: 5px; vertical-align: middle;}
+    #page6 article.right .sec1 table .light {margin-right: 10px;}
+    #page6 article.right .sec2 table .btit {width: 15%;}
+    #page6 article.right .sec2 table .r3 {width: 40%;}
+    #page6 h1.title-black {padding-top: 20px;}
+        
+    #page7{margin-bottom: 0px; height: auto; }
+    #page7 article.finance {}
+    #page7 article.img {padding: 0 30px 0;}
+    #page7 article.img {height: auto;}
+    #page7 .sub_txt {font-size: 10pt; margin-left: 0;}
+    #page7 article.finance .sec1, #page7 article.finance .sec2 {margin-bottom: 20px;}
+    
+    #page8 {height: auto;}
+    #page8 article.left, #page8 article.right {padding: 30px 30px 0; width: 100%; height: auto;}
+    #page8 h2.lit_green {font-size: 12pt; margin-bottom: 20px;}
+    #page8 h2.s_black, #page8 article.right h2.lit_black {font-size: 11pt;line-height: 23px; color: #333;}
+    #page8 article.left table {width: 100%; margin-bottom: 30px;}
+    #page8 article.left table td.tit {width: 26%; font-size: 9pt;}
+    #page8 article.left table td {padding: 10px; font-size: 10pt;}
+    #page8 article.left .img {margin-bottom: 30px;}
+    #page8 article.right .sec1 p, #page8 article.right .sec2 p  {font-size: 10pt; line-height: 30px; }
+    #page8 article.right .sec1 {margin-bottom: 30px;}
+    #page8 article.right .sec2 {padding-right: 0; text-align: left;}
+    
+        #page9 {height: auto !important}
+    #page9 article.trade { height: auto;}
+        #page9 article.trade h1 {padding-top: 20px;}
+    #page9 article.top, #page9 article.bottom {width: 100%; height: auto;}
+        #page9 article.bottom .left {margin-bottom: 30px; float: none; background-size: 100% 100%;}
+        #page9 article.bottom .right {margin-bottom: 50px; float: none;}
+    #page9 article.top .right, #page9 article.bottom .left {margin-top: 30px; width: 100%; height: auto; padding-left: 80px;}
+        #page9 article.top {margin-bottom: 0;}
+    #page9 article.top .right p, #page9 article.bottom .left p {font-size: 10pt; line-height: 25px;   padding-bottom: 15px;}
+        #page9 article.top .left {float: none;}
+        #page9 article.top .right {float: none; margin-right: 0;}
+        }
+
+    @media screen and (min-width: 320px) and (max-width: 900px) {
+    .subscript {font-size: 10pt;}
+    .sub_blue {font-size: 15pt; }
+    h1.title-black{font-size: 15px;}
+    #page1{margin-bottom: 30px; height: auto;}
+    #page1 article.overview, #page1 article.img {padding: 30px 30px;}
+    #page1 article.img {height: auto;}
+    #page1 .limg {margin-bottom: 50px;}
+        #page1 .img .limg {margin-right: 0;}
+    
+
+    #page2 {height: auto;}
+    #page2 .sub_txt {font-size: 10pt;}
+    #page2 article.left {width: 100%; height:auto;}
+    #page2 artice.right {width: 100%;}
+    #page2 article.left {padding: 30px 30px 0;}
+    #page2 .sub_green, #page2 .sub_navy {font-size: 15px; line-height:25px;}
+    #page2 article.img {padding: 30px 30px 0; float: none; margin-left: 0;}
+    
+    #page3 {height: auto; margin-bottom: 30px;}
+    #page3 article.overview, #page3 article.img {padding: 30px 30px;}
+    #page3 h2.sub_black {font-size: 16px;}
+    #page3 .limg {margin-bottom: 30px;}
+    #page2 .sub_txt {line-height: 20px;}
+    
+    #page4 {height: auto;  }
+    #page4 h1.title-black {padding-bottom: 20px;}
+    #page4 .sub_txt {font-size: 10pt; line-height: 20px;}
+    #page4 article.left {width: 100%; height: auto; float: none;}
+    #page4 .right {width: 100%; padding: 30px 30px 0; float: none; padding-bottom: 30px;}
+    #page4 article.left {padding: 0px 30px 0px;}
+    #page4 .sub_green, #page2 .sub_navy {font-size: 15px; line-height:25px;}
+    #page4 article.img {padding: 30px 30px;}
+    #page4 h2.sub_sBlack {font-size: 11pt; line-height: 23px;}
+    #page4 p.ltitle {margin-left: 0; font-size: 10pt; line-height: normal;}
+    #page4 .bullet-skyblue {margin-left: 0;}
+    #page4 article.right table .table_title {font-size: 10pt;}
+    #page4 table, #page4 table td {font-size: 10pt; padding: 7px;}
+        #page4 table, #page4 table .td_tit {width: 20%;}
+    #page4 .iarrow {width: 100%;}
+    #page4 .right {height: auto; margin-bottom: 50px;}
+    #page4 .sec2 table thead td {font-size: 10pt;}
+        #page4 table .import {width: 40%;}
+        
+    #page5 {height: auto; padding: 0px 30px 0;}
+    #page5 h1.lit_green {font-size: 15px; margin-bottom: 30px;}
+    #page5 .process {height: auto; padding-bottom: 30px;}
+    
+    #page6 {height: auto; padding: 30px 30px 0; background: #fff;}
+    #page6 article.left { padding-top: 0; padding-left: 0; width: 100%;}
+    #page6 article.right {width: 100%;}
+    #page6 h2.lit_green {font-size: 12pt;}
+    #page6 p.lit_black {font-size: 11pt; line-height: 15pt;}
+    #page6 .left .sec1 {margin-bottom: 10px;}
+    #page6 .sub_txt {font-size: 10pt; margin-left: 0;}
+    #page6 article.left {height: auto;margin-bottom: 30px; float: none;}
+    #page6 article.right {height: auto; padding-top: 0; float: none;}
+    #page6 article.right .sec1 table {font-size: 10pt;}
+    #page6 article.right .sec1 table .dark, #page6 article.right .sec1 table .light {height: 45px; font-size: 9pt; padding: 5px; vertical-align: middle;}
+    #page6 article.right .sec1 table .light {margin-right: 10px;}
+    #page6 article.right .sec2 table { width: 100%; font-size: 10pt; margin-bottom: 40px;}
+    #page6 article.right .sec2 table .btit {width: 15%;}
+    #page6 article.right .sec2 table .r3 {width: 40%;}
+    #page6 h1.title-black {padding-top: 20px;}
+        
+    #page7{margin-bottom: 0px; height: auto; }
+    #page7 article.finance {padding: 0px 30px 0;}
+    #page7 article.img {padding: 0 30px 0;}
+    #page7 article.img {height: auto;}
+    #page7 h2.lit_green {font-size: 12pt; margin-bottom: 20px;}
+    #page7 h2.sub_sBlack {font-size: 11pt;line-height: 23px; color: #333;}
+    #page7 .sub_txt {font-size: 10pt; margin-left: 0;}
+    #page7 article.finance .sec1, #page7 article.finance .sec2 {margin-bottom: 20px;}
+    
+    #page8 {height: auto;}
+    #page8 article.left, #page8 article.right {padding: 30px 30px 0; width: 100%; height: auto;}
+    #page8 h2.lit_green {font-size: 12pt; margin-bottom: 20px;}
+    #page8 h2.s_black, #page8 article.right h2.lit_black {font-size: 11pt;line-height: 23px; color: #333;}
+    #page8 article.left table {width: 100%; margin-bottom: 30px;}
+    #page8 article.left table td.tit {width: 26%; font-size: 9pt;}
+    #page8 article.left table td {padding: 10px; font-size: 10pt;}
+    #page8 article.left .img {margin-bottom: 30px;}
+    #page8 article.right .sec1 p, #page8 article.right .sec2 p  {font-size: 10pt; line-height: 30px; }
+    #page8 article.right .sec1 {margin-bottom: 30px;}
+    #page8 article.right .sec2 {padding-right: 0; text-align: left;}
+    
+        #page9 {height: auto !important; }
+    #page9 article.trade {padding: 30px 30px 0; height: auto;}
+        #page9 article.trade h1 {padding-top: 20px;}
+    #page9 article.top, #page9 article.bottom {width: 100%; height: auto;padding: 0px 30px 0;margin-left: 0;}
+        #page9 article.bottom .left {margin-bottom: 30px; float: none; background-size: 100% 100%;}
+        #page9 article.bottom .right {margin-bottom: 50px; float: none;}
+    #page9 article.top .right, #page9 article.bottom .left {margin-top: 30px; width: 100%; height: auto;}
+        #page9 article.top {margin-bottom: 0;}
+    #page9 article.top .right p, #page9 article.bottom .left p {font-size: 10pt; line-height: 25px;  padding-left: 30px; padding-bottom: 15px;}
+        #page9 article.top .left {float: none;}
+        #page9 article.top .right {float: none; margin-right: 0;}
+        
+/*
+작성자 :김소현
+작성일 :2017-09-19
+내용 : wrapper 부분 수정
+*/
+        .wrapper{overflow: hidden;}

@@ -1,0 +1,104 @@
+section {box-sizing: border-box;height: 100vh;}
+.sub_blue {font-family: 'Play',sans-serif; font-size: 50px; color: #00335e; letter-spacing: -0.05em;}
+h1.title-black {padding-bottom: 30px;}
+.bullet-skyblue {margin-right: 10px;}
+    #page1 article.overview {
+     padding: 130px 0 50px 200px;}
+    #page1 .img {text-align: center;}
+    .img img {max-width: 100%; 
+    width /***/: auto; /* only IE8 */
+    height: auto;
+    vertical-align: bottom;}
+    #page1 h1.title-black {padding-left: 0; padding-top: 20px;}
+
+    #page2 article.reserve .subblue{font-size: 35pt;}
+    #page2 article.reserve {
+     padding: 130px 0 30px 200px;}
+    #page2 h1.title-black {padding-left: 0; padding-top: 20px;}
+    #page2 .img {text-align: center;}
+
+    #page3 article.inter {padding: 130px 0 0px 200px;}
+    #page3 h1.title-black {padding-left: 0; padding-top: 20px; padding-bottom: 30px;}
+    #page3 .img {text-align: center;}
+
+    #page4 {background: url(../images/cube04_bg.png) no-repeat; background-size: cover;}
+    #page4 article.payment {padding: 130px 0 0px 200px;}
+    #page4 article.img {width: 46%; padding-left: 250px; float: left; padding-top: 100px;}
+    #page4 h1.title-black {padding-left: 0; padding-top: 20px; padding-bottom: 0;}
+    #page4 article.right {width: auto; float:left; }
+    #page4 article.right img {max-width: 100%; 
+    width /***/: auto; /* only IE8 */
+    height: auto;
+    vertical-align: bottom; margin-bottom: 15px;}
+    #page4 article.right p{ font-size: 12pt; line-height:25px; padding-left: 42px;}
+    #page4 .sec {margin-bottom: 10px;}
+
+    #page5 article.platform {padding: 130px 0 30px 200px;}
+    #page5 h1.title-black {padding-left: 0; padding-top: 20px; padding-bottom: 0;}
+    #page5 article.sub_txt {padding-left: 200px; margin-bottom: 50px;}
+    #page5 article.sub_txt table td {font-size: 14pt; padding-bottom: 5px;}
+    #page5 article.sub_txt table .med {width: 15%; height: 36px; background: url(../images/med-rec.png) no-repeat;}
+    #page5 article.sub_txt table .gem {width: 15%; height: 36px; background: url(../images/gem-health.png) no-repeat;}
+    #page5 article.sub_txt table .ey {width: 15%; height: 36px; background: url(../images/ey-contract.png) no-repeat;}
+    #page5 article.img {text-align: center;}
+
+    #page6 {background: #f0fafa;}
+    #page6 article.security {
+     padding: 130px 0 30px 200px;}
+    #page6 h1.title-black {padding-left: 0; padding-top: 20px;}
+    #page6 .img {text-align: center;}
+
+    #page7 article.predict {
+     padding: 130px 0 30px 200px; margin-bottom: 20px;}
+    #page7 h1.title-black {padding-left: 0; padding-top: 20px;}
+    #page7 .img {text-align: center;}
+
+    //*MEDIA QUARY*//
+    @media (max-width: 1680px){
+    #page1 article.overview {
+    padding: 148px 0 0 100px;}
+    }
+    @media screen and (min-width: 901px) and (max-width: 1679px) {
+        .img {padding-left: 200px;}
+        #page4 {height: 160vh;}
+        #page4 article.img {padding-top: 0; width: 100%; padding-bottom: 50px;}
+        #page4 article.right {float: none; padding: 100px 0 50px 200px;}
+    }
+    @media screen and (min-width: 320px) and (max-width: 900px) {
+    section {height: auto;} article {height: auto;}
+    .subscript {font-size: 10pt;}
+    .sub_blue {font-size: 15pt; }
+    h1.title-black{font-size: 15px;}
+    #page1{margin-bottom: 30px; height: auto;}
+    #page1 article.overview{padding: 30px 30px 0 ;}
+    #page1 article.img {padding: 20px 30px 0 ;}
+    #page1 article.img {height: auto;}
+    #page1 .limg {margin-bottom: 50px;}
+        
+    #page2 article.reserve{padding: 30px 30px 0;}
+    #page2 article.img {padding: 20px 30px 0 ; margin-bottom: 30px;}
+        
+    #page3 article.inter{padding: 30px 30px 0;}
+    #page3 article.img {padding: 0px 30px 0 ; margin-bottom: 30px;}
+        
+    #page4 {background: #fff;}  
+    #page4 article.right p {font-size: 10pt; line-height: 20px;}
+    #page4 article.payment{padding: 30px 30px 0;}    
+    #page4 article.img {width: 100%; padding-left: 0; padding-top: 0;padding: 0px 30px 0 ; margin-bottom: 30px;}
+    #page4 article.right {width: 100%; padding: 30px 30px 0; margin-bottom: 30px;float: none; margin-top: 0;}
+        
+    #page5 article.platform {padding: 30px 30px 0;}
+    #page5 article.sub_txt {padding-left: 0;padding:0px 30px 20px;margin-bottom: 0;}
+    #page5 article.sub_txt table td {font-size: 10pt; padding-bottom: 15px;}
+    #page5 article.sub_txt table td.txt {padding-left: 10px;}
+    #page5 article.sub_txt table .tit {width: 30%; background-size: contain; }
+    #page5 article.img {padding: 0px 30px 0; margin-bottom: 30px;}
+    #page5 h1.title-black {padding-bottom: 30px;}
+    
+        
+    #page6 article.security{padding: 30px 30px 0;}
+    #page6 article.img {padding: 20px 30px 0 ; padding-bottom: 30px;}
+        
+    #page7 article.predict{padding: 30px 30px 0; margin-bottom: 0px;}
+    #page7 article.img {padding: 20px 30px 0 ; margin-bottom: 30px;}
+}
